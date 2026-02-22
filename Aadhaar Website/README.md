@@ -136,6 +136,20 @@ chrome://extensions
 
 ---
 
+## 📁 Extension Folder
+
+The standalone Chrome extension files are available in:
+
+`../privacy-extension/`
+
+Files:
+
+* `manifest.json`
+* `content.js`
+* `inject.js`
+
+---
+
 ## 🧪 Testing Procedure
 
 ### Without Extension
