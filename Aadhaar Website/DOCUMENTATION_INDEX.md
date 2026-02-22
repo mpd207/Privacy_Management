@@ -34,6 +34,9 @@ You have received **comprehensive, enterprise-grade documentation** for the Nati
 **...Setup for deployment**
 → [README_COMPLETE.md - Installation & Setup](#)
 
+**...Access the standalone browser extension files**
+→ [../privacy-extension/](#)
+
 ---
 
 ## 📁 Documentation Files Overview
@@ -188,6 +191,21 @@ You have received **comprehensive, enterprise-grade documentation** for the Nati
 - Basic overview
 
 **Status:** Original (not modified)
+
+---
+
+### 6. **privacy-extension/** (Standalone Chrome Extension)
+**Extension Source Files**
+
+**Contents:**
+- `manifest.json`
+- `content.js`
+- `inject.js`
+
+**Purpose:**
+- Contains the loadable Manifest V3 extension package
+- Can be loaded directly via `chrome://extensions` → **Load unpacked**
+- Isolated from website demo files for easier reuse
 
 ---
 
