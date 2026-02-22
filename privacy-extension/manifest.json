@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Aadhaar Privacy Layer",
+  "version": "1.0",
+  "description": "Blocks tracking identifiers",
+
+  "permissions": [],
+
+  "host_permissions": [
+    "http://127.0.0.1:5500/*"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": [
+        "http://127.0.0.1:5500/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+
+  "web_accessible_resources": [
+    {
+      "resources": ["inject.js"],
+      "matches": ["http://127.0.0.1:5500/*"]
+    }
+  ]
+}
